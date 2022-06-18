@@ -1,0 +1,40 @@
+* {
+    background-color: dimgrey;
+    background-position: center;
+    background-size: cover;
+}
+
+.nggyu-text {
+    color: #ffc0cb;
+    position: absolute;
+    padding: 2px;
+    top: 38%;
+    left: 38%;
+    transition: ease-in 2s;
+    transition-delay: 0.5s;
+}
+
+.nggyu-text:hover {
+    color: dimgrey;
+}
+
+.links {
+    position: absolute;
+    padding: 2px;
+    top: 75%;
+    left: 45%;
+    transition: ease-in-out 2s;
+    transition-delay: 0.5s;
+}
+
+a:link{
+    color: black;
+}
+
+a:active{
+    color: black;
+}
+
+a:visited{
+    color: black
+}
